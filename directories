@@ -1,7 +1,7 @@
 #print(dir())
 #print(dir("_builtins_"))
 #fromkeys()
-'''a="codegnan"
+a="codegnan"
 print(a)
 print(list(a))
 print(tuple(a))
@@ -15,33 +15,37 @@ c=dict.fromkeys(a,"pooja")
 print(c)
 
 c["g"]="python"
-print(c)'''
+print(c)
 
 #eval()
-'''while True:
+#ex 1
+while True:
     a=int(input("a value"))
     b=int(input("b value"))
-    print(a+b)'''
+    print(a+b)
 
-'''while True:
+#ex 2
+while True:
     a=float(input("a value"))
     b=float(input("b value"))
-    print(a+b)'''
+    print(a+b)
 
-'''while True:
+#ex 3
+while True:
     a=input("a value")
     b=input("b value")
-    print(a+b)'''
+    print(a+b)
 
-'''while True:
+#ex 4
+while True:
     a=eval(input("a value"))
     b=eval(input("b value"))
-    print(a+b)'''
+    print(a+b)
 
 #zip()->we can combine multiple collections into one collection
-'''a=[10,20,30,40,50]
+a=[10,20,30,40,50]
 names=["surendar","harsha","rupesh","krishna","mohan"]
-print(a+names)
+print(a,names)
 b=zip(a,names)
 print(b)
 c=list(zip(a,names))
@@ -51,14 +55,15 @@ print(c)
 c=set(zip(a,names))
 print(c)
 c=dict(zip(a,names))
-print(c)'''
+print(c)
 
 #enumarate()->we can give counter to the collection
-'''names=["madhu","nirupam","deekshith","guruprasad","surendar"]
+names=["madhu","nirupam","deekshith","guruprasad","surendar"]
 for i in range(len(names)):
-    print(i)'''
-#enumerate method
-'''b=list(enumerate(names))
+    print(i)
+#using enumerate method
+names=["madhu","nirupam","deekshith","guruprasad","surendar"]
+b=list(enumerate(names))
 print(b)
 b=list(enumerate(names,100))
 print(b)
@@ -67,11 +72,11 @@ print(b)
 b=set(enumerate(names))
 print(b)
 b=dict(enumerate(names))
-print(b)'''
+print(b)
 
 #task
 #BMI
-'''while True:
+while True:
     weight=float(input("enter the weight"))
     height=float(input("enter the height"))
     BMI=weight/height**2
@@ -82,5 +87,5 @@ print(b)'''
     elif BMI>24.5 and BMI<=29.5:
         print("over weight")
     elif BMI>30:
-        print("obesity")'''
+        print("obesity")
 
